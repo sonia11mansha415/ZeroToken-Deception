@@ -9,7 +9,7 @@
 [![Status](https://img.shields.io/badge/Defense-Active%20Interception-emerald?style=for-the-badge)]()
 
 <p align="center">
-  <b>A proactive cyber defense honeypot simulating enterprise credential decoys, intercepting unauthorized token harvesting, and autonomously executing zero-delay containment playbooks.</b>
+  <b>A proactive cyber defense deception engine simulating enterprise credential decoys, intercepting unauthorized token harvesting, and autonomously executing zero-delay containment playbooks.</b>
 </p>
 
 ---
@@ -17,6 +17,6 @@
 </div>
 
 ## 📌 Executive Overview
-Threat actors increasingly target cached enterprise credentials, session cookies, and API keys via infostealers and automated recon bots. **ZeroToken-Deception** shifts the battlefield paradigm from reactive alert triage to proactive deception.
+Threat actors increasingly target cached enterprise credentials, session cookies, and API keys via infostealers and automated reconnaissance scripts. **ZeroToken-Deception** shifts the battlefield paradigm from reactive alert triage to proactive deception.
 
 By planting high-entropy canary access tokens across endpoint surfaces, any unauthorized harvesting attempt routes directly into our deception engine. The engine deceptively returns simulated authentication failures to freeze attacker enumeration while triggering sub-second autonomous host containment in the background.
